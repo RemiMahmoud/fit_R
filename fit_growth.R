@@ -160,8 +160,8 @@ fit.growth <-  function(data, fit.all = FALSE, time_var ="time_sowing", only.MSE
 # ##Tests##
 
 # #import data
-# data_traits <- read_rds("../data/phenotype/intercrop_traits.rds")
-# data_traits <- data_traits$crop
+data_traits <- read_rds("../data/phenotype/intercrop_traits.rds")
+data_traits <- data_traits$crop
 data_height <- data_traits %>%
   filter(variable == "height_crop")
 
