@@ -1,3 +1,5 @@
+library(tidyverse)
+library(grofit)
 
 fit.growth <-  function(data, fit.all = FALSE, time_var ="time_sowing", only.MSE  = FALSE, delta_A_max = 0.2, min_points = 3){
   
